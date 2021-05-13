@@ -1,5 +1,5 @@
 class AmbiguousCoordinates {
-    public List<String> ambiguousCoordinates(String s) {
+    public List<String> ambiguousCoordinates(String S) {
         int n = S.length();
         List<String> res = new ArrayList();
         for (int i = 1; i < n - 2; ++i) {
